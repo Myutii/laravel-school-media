@@ -1,66 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Laravel v8.69.0 (PHP v7.4.6) AdminLTE
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Login
+![image](https://user-images.githubusercontent.com/59007048/140850418-7c26ae9b-206e-467c-ae6d-a369ae987de6.png)
+Login untuk siswa dan juga admin
 
-## About Laravel
+## Dashboard Admin
+![image](https://user-images.githubusercontent.com/59007048/140850758-502d49f9-3761-4e9c-9734-3972be08bb92.png)
+Admin akan masuk ke halaman admin. Dapat mengelola data sekolah, kelas, dan siswa.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Data Sekolah
+![image](https://user-images.githubusercontent.com/59007048/140850881-720b8e1f-2093-4597-970c-f32235b2707f.png)
+![image](https://user-images.githubusercontent.com/59007048/140850990-46f433f8-8442-4ea6-b1d3-f7ec8176e533.png)
+Admin dapat mengubah data sekolah.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Data Kelas
+![image](https://user-images.githubusercontent.com/59007048/140851064-32d274d7-ca56-48a3-8b64-08762b7d02ef.png)
+![image](https://user-images.githubusercontent.com/59007048/140851215-ce3e03e8-ae42-41ea-a5ae-599675984d12.png)
+![image](https://user-images.githubusercontent.com/59007048/140851261-06b60a2a-2436-4159-858e-2279c828a7f0.png)
+![image](https://user-images.githubusercontent.com/59007048/140851353-8e185ecb-6d81-48ee-b873-92bd32f7ebfc.png)
+Admin dapat mengelola data kelas. Pada detail kelas akan tampil nama-nama siswa pada kelas tersebut.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Data Siswa
+![image](https://user-images.githubusercontent.com/59007048/140851419-0f695891-3344-4872-bd17-6a2f33b853eb.png)
+![image](https://user-images.githubusercontent.com/59007048/140851479-00173667-a0ef-4322-95b7-00180ed9ff4d.png)
+![image](https://user-images.githubusercontent.com/59007048/140851536-8c966772-133a-4e40-aed2-7366e3b21b7f.png)
+![image](https://user-images.githubusercontent.com/59007048/140851609-b6acf9d1-0d71-47de-8675-dba2700cc75a.png)
+Admin dapat mengelola data siswa. Tabel siswa terhubung dengan table kelas
 
-## Learning Laravel
+## User
+![image](https://user-images.githubusercontent.com/59007048/140851717-ecd8d6da-787b-433d-a095-8993d2c0f0c7.png)
+Halaman user untuk admin hanya memuat data pada tabel user
+![image](https://user-images.githubusercontent.com/59007048/140852856-588c8577-b392-4bca-a421-e4c64b9570e8.png)
+Halaman user untuk siswa dapat memuat data siswa yang terdapat dalam table siswa
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Register
+![image](https://user-images.githubusercontent.com/59007048/140851822-fe163fae-d77c-4ed8-9076-e128cbfc6632.png)
+![image](https://user-images.githubusercontent.com/59007048/140853695-01999e17-dffa-4bd2-a811-738be33dda72.png)
+Halaman register untuk siswa yang belum memiliki akun. Saat mendaftar data siswa akan tersimpan pada tabel siswa dan juga tabel user. Siswa akan mendapat email jika berhasil terdaftar.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Dashboard Siswa
+![image](https://user-images.githubusercontent.com/59007048/140852229-fcdb1d40-a8a4-45ac-8739-f51121c4b9f5.png)
+Siswa hanya dapat melihat kelas
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# laravel-school-media" 
+## Lihat Siswa
+![image](https://user-images.githubusercontent.com/59007048/140852368-cabeed67-52e4-4daf-969c-e3a49c64b68b.png)
+![image](https://user-images.githubusercontent.com/59007048/140852447-3ad005e9-227b-4376-9fec-70dcc1f1ad15.png)
+siswa dapat melihat seluruh data kelas dan detail kelas
